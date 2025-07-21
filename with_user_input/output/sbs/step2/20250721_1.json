@@ -1,0 +1,79 @@
+{
+  "optimistic": {
+    "revenue_growth": {
+      "value": 15.0,
+      "reasoning": "Based on the strong historical growth from 2010 to 2011 (~10%), and considering Apple's rapid product innovation and market expansion during this period, a higher annual growth rate of 15% is plausible in an optimistic scenario."
+    },
+    "ebit_margin": {
+      "value": 15.0,
+      "reasoning": "Apple's EBIT margin has historically been around 13-15%. Assuming continued premium pricing and operational efficiency, maintaining a 15% EBIT margin is reasonable."
+    },
+    "effective_income_tax_rate": {
+      "value": 20.0,
+      "reasoning": "Apple's effective tax rate has been around 20-21%. For an optimistic scenario, assuming no significant tax changes, a 20% rate is appropriate."
+    },
+    "depreciation_amortization_percentage": {
+      "value": 4.0,
+      "reasoning": "Depreciation & amortization typically hover around 4% of revenue for Apple, considering its capital-intensive manufacturing and R&D investments."
+    },
+    "capex_percentage": {
+      "value": 4.0,
+      "reasoning": "CapEx has historically been around 4-5% of revenue; assuming continued investment in manufacturing and infrastructure, 4% is reasonable."
+    },
+    "change_in_net_working_capital_percentage": {
+      "value": 1.0,
+      "reasoning": "Apple's NWC changes are relatively stable; assuming a modest 1% increase aligns with growth and inventory/supplier management."
+    },
+    "scenario_reasoning": "This optimistic scenario assumes Apple's revenue growth accelerates slightly due to successful new product launches and market expansion, with margins remaining stable and tax rates unchanged. Capital investments and working capital needs grow modestly, supporting sustained growth."
+  },
+  "base": {
+    "revenue_growth": {
+      "value": 12.5,
+      "reasoning": "Based on the historical data, revenue growth from 2010 to 2011 was 10%. A conservative, steady growth rate of 12.5% reflects Apple's consistent performance and market position during this period."
+    },
+    "ebit_margin": {
+      "value": 14.0,
+      "reasoning": "Given historical margins around 13-15%, assuming a stable 14% EBIT margin captures operational efficiency without overly optimistic assumptions."
+    },
+    "effective_income_tax_rate": {
+      "value": 20.5,
+      "reasoning": "Slightly adjusting for minor fluctuations, a 20.5% effective tax rate reflects recent trends."
+    },
+    "depreciation_amortization_percentage": {
+      "value": 4.0,
+      "reasoning": "Maintaining historical levels of depreciation & amortization as a percentage of revenue."
+    },
+    "capex_percentage": {
+      "value": 4.5,
+      "reasoning": "CapEx slightly above 4% to account for ongoing investments but not overly aggressive."
+    },
+    "change_in_net_working_capital_percentage": {
+      "value": 1.5,
+      "reasoning": "A modest increase in NWC needs consistent with steady growth."
+    },
+    "scenario_reasoning": "This base scenario assumes Apple's growth continues at a moderate, sustainable pace with margins and tax rates remaining stable. Capital and working capital investments are aligned with historical trends."
+  },
+  "pessimistic": {
+    "revenue_growth": {
+      "value": 10.0,
+      "reasoning": "Given market saturation and competitive pressures, a lower growth rate of 10% accounts for potential slowdown in revenue expansion."
+    },
+    "ebit_margin": {
+      "value": 12.0,
+      "reasoning": "Margins could compress due to increased competition, pricing pressures, or rising costs, leading to a conservative estimate of 12%."
+    },
+    "effective_income_tax_rate": {
+      "value": 21.0,
+      "reasoning": "Tax rates could increase due to policy changes or repatriation taxes, so assuming a slightly higher rate of 21%."
+    },
+    "depreciation_amortization_percentage": {
+      "value": 3.5,
+      "reasoning": "Depreciation & amortization might decrease slightly if capital investments slow down or asset lives are shorter."
+    },
+    "capex_percentage": {
+      "value": 3.5,
+      "reasoning": "CapEx could decrease if growth slows, but still necessary for maintaining operations."
+    },
+    "change_in_net_working_capital_percentage": {
+      "value": 2.0,
+      "reason
