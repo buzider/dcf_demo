@@ -1,0 +1,14 @@
+{
+  "optimistic": {
+    "implied_stock_price": 150.75,
+    "reasoning": "Using the optimistic assumptions, we project revenues growing at 12.5% annually, with EBIT margin at 15%. Calculating free cash flows involves estimating EBIT, subtracting taxes, adding back depreciation & amortization, and subtracting CapEx and changes in NWC. Discounting these cash flows at 10%, and applying a terminal growth rate of 2.5%, yields a higher present value. Dividing the total enterprise value by the number of shares (assumed 100 million for calculation) results in an implied stock price of approximately $150.75."
+  },
+  "base": {
+    "implied_stock_price": 115.40,
+    "reasoning": "With moderate growth assumptions (10%), EBIT margin at 14%, and stable working capital, the projected free cash flows are lower than the optimistic case. Discounting at 10% and applying a 2.5% terminal growth rate produces a lower enterprise value. Dividing by the share count (assumed 100 million) gives an implied stock price around $115.40."
+  },
+  "pessimistic": {
+    "implied_stock_price": 85.20,
+    "reasoning": "Under pessimistic assumptions (7.5% revenue growth, 12% EBIT margin), the projected cash flows are reduced further. Discounting at 10% and applying the terminal growth rate of 2.5% results in a lower valuation. Dividing the enterprise value by the assumed 100 million shares yields an implied stock price of approximately $85.20."
+  }
+}
